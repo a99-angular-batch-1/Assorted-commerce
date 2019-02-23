@@ -1,6 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { ProductRoutingModule } from './product-routing.module';
 import { IgxSliderModule } from 'igniteui-angular';
@@ -17,6 +18,8 @@ const MODULES = [
   ProductRoutingModule,
   IgxSliderModule,
   ModalModule.forRoot(),
+  FormsModule,
+  ReactiveFormsModule
 ];
 
 const COMPONENTS = [
